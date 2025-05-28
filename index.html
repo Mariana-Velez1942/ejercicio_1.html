@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perla Dorada - Restaurante</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <div class="header__logo">Perla Dorada</div>
+                <nav class="header__nav">
+                    <a href="#inicio" class="header__nav-link">Inicio</a>
+                    <a href="#nosotros" class="header__nav-link">Nosotros</a>
+                    <a href="#menu" class="header__nav-link">Menú</a>
+                    <a href="#contacto" class="header__nav-link">Contacto</a>
+                </nav>
+                <button class="header__mobile-toggle hidden">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero__content">
+                <h1>Bienvenidos a Perla Dorada</h1>
+                <p>Descubre una experiencia gastronómica única con los mejores sabores tradicionales y contemporáneos en un ambiente acogedor y elegante.</p>
+                <a href="#menu" class="btn">Ver Nuestro Menú</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="nosotros">
+        <div class="container">
+            <div class="about__content">
+                <div class="about__text">
+                    <h2>Nuestra Historia</h2>
+                    <p>Desde 1995, Perla Dorada ha sido el hogar de la mejor cocina tradicional con un toque moderno. Nuestro compromiso con ingredientes frescos y locales nos ha convertido en el restaurante favorito de la comunidad.</p>
+                    <p>Cada plato cuenta una historia, cada sabor despierta emociones y cada visita se convierte en un recuerdo inolvidable.</p>
+                    <a href="#contacto" class="btn btn--secondary">Conoce Más</a>
+                </div>
+                <div class="about__image">
+                    <i class="fas fa-utensils"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2 class="menu__title">Nuestro Menú Especial</h2>
+            <div class="menu__grid">
+                <div class="menu-card">
+                    <div class="menu-card__image">
+                        <div class="menu-card__badge">Especialidad</div>
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <div class="menu-card__content">
+                        <h3 class="menu-card__title">Salmón a la Parrilla</h3>
+                        <p class="menu-card__description">Filete de salmón fresco a la parrilla con vegetales asados, salsa de limón y hierbas aromáticas. Acompañado de arroz salvaje.</p>
+                        <div class="menu-card__price">
+                            <span>$28.900</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-card__image">
+                        <i class="fas fa-drumstick-bite"></i>
+                    </div>
+                    <div class="menu-card__content">
+                        <h3 class="menu-card__title">Pollo al Curry</h3>
+                        <p class="menu-card__description">Pechuga de pollo tierna en salsa de curry cremosa con leche de coco, especias exóticas y vegetales frescos. Servido con arroz basmati.</p>
+                        <div class="menu-card__price">
+                            <span>$24.500</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-card__image">
+                        <div class="menu-card__badge">Vegano</div>
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <div class="menu-card__content">
+                        <h3 class="menu-card__title">Bowl Mediterráneo</h3>
+                        <p class="menu-card__description">Quinoa, garbanzos, tomates cherry, pepino, aceitunas, aguacate y queso feta con aderezo de yogur griego y hierbas.</p>
+                        <div class="menu-card__price">
+                            <span>$19.900</span>
+                        </div>
+                    </div>
+                </div>
+
+    
+                <div class="menu-card">
+                    <div class="menu-card__image">
+                        <div class="menu-card__badge">Chef's Choice</div>
+                        <i class="fas fa-pizza-slice"></i>
+                    </div>
+                    <div class="menu-card__content">
+                        <h3 class="menu-card__title">Pizza Artesanal</h3>
+                        <p class="menu-card__description">Masa artesanal fermentada 24h, salsa de tomate casera, mozzarella fresca, prosciutto, rúcula y parmesano. Horneada en horno de leña.</p>
+                        <div class="menu-card__price">
+                            <span>$26.500</span>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="menu-card">
+                    <div class="menu-card__image">
+                        <i class="fas fa-hamburger"></i>
+                    </div>
+                    <div class="menu-card__content">
+                        <h3 class="menu-card__title">Burger Gourmet</h3>
+                        <p class="menu-card__description">Carne angus 200g, queso cheddar, tocino ahumado, cebolla caramelizada, lechuga, tomate y salsa especial. Con papas rústicas.</p>
+                        <div class="menu-card__price">
+                            <span>$22.900</span>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="menu-card">
+                    <div class="menu-card__image">
+                        <div class="menu-card__badge">Postre</div>
+                        <i class="fas fa-ice-cream"></i>
+                    </div>
+                    <div class="menu-card__content">
+                        <h3 class="menu-card__title">Tiramisú Clásico</h3>
+                        <p class="menu-card__description">El auténtico tiramisú italiano con mascarpone, café espresso, cacao en polvo y un toque de amaretto. Preparado diariamente.</p>
+                        <div class="menu-card__price">
+                            <span>$12.500</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="footer" id="contacto">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Parque Principal Caldas Ant</p>
+                    <p><i class="fas fa-phone"></i> +57 3022611383</p>
+                    <p><i class="fas fa-envelope"></i> PerlaDorada@gmail.com</p>
+                </div>
+                
+                <div class="footer__section">
+                    <h3>Horarios</h3>
+                    <p><strong>Lunes - Jueves:</strong> 12:00 PM - 10:00 PM</p>
+                    <p><strong>Viernes - Sábado:</strong> 12:00 PM - 11:30 PM</p>
+                    <p><strong>Domingo:</strong> 12:00 PM - 9:00 PM</p>
+                </div>
+                
+                <div class="footer__section">
+                    <h3>Síguenos</h3>
+                    <p>Mantente al día con nuestras últimas noticias y promociones especiales.</p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="footer__social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="footer__social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="footer__social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; Perla Dorada. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    
